@@ -74,3 +74,6 @@ ro.soc.manufacturer=QTI
 
 # SPU
 vendor.gatekeeper.disable_spu=true
+
+# Zygote
+zygote.critical_window.minute=10
