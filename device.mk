@@ -91,6 +91,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DolbyManager
 
+# LMK
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.lmk.force_inkernel_lmk=true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
