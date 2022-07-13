@@ -45,4 +45,7 @@
     <!-- Whether device supports increased touch sensitvity -->
     <bool name="config_supportTouchPollingMode">true</bool>
 
+    <!-- Dolby Atmos -->
+    <string name="config_dolbyAtmosPackage" translatable="false">com.dolby.daxappui/com.dolby.daxappui.MainActivity</string>
+
 </resources>
