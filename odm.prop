@@ -5,5 +5,6 @@ persist.vendor.audio.fluence.voicerec=true
 persist.vendor.audio.speaker.prot.enable=false
 persist.vendor.audio.spv4.enable=false
 persist.vendor.audio.vbat.enabled=false
+ro.audio.monitorRotation=true
 vendor.audio.feature.spkr_prot.enable=false
 vendor.audio.hal.output.suspend.supported=false
