@@ -36,3 +36,6 @@ genfscon sysfs /devices/platform/soc/990000.i2c/i2c-5/5-004b/wakeup u:object_r:s
 genfscon sysfs /devices/platform/soc/aab0000.qcom,venus/subsys10/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6490/subsys9/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,spcom/wakeup u:object_r:sysfs_wakeup:s0
+
+# Display - DC Dimming node
+genfscon sysfs /kernel/oplus_display/dimlayer_bl_en u:object_r:vendor_sysfs_dc_dim:s0
